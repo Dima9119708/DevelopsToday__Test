@@ -17,18 +17,18 @@ export const Articles = ( { posts } : Props ) => {
     return (
         <Wrapper className="wrap">
 
-            { posts.map(item => {
-                return (
-
-                    <Link href={`posts/${item.id}`} key={item.id}>
-                        <Article >
-                            <ArticleTitle> { item.title } </ArticleTitle>
-                            <ArticleBody>
-                                { item.body }
-                            </ArticleBody>
-                        </Article>
-                    </Link>
-                )
+            { posts.filter(item => item.title && item.body)
+                   .map(item => {
+                        return (
+                            <Link href={`posts/${item.id}`} key={item.id}>
+                                <Article >
+                                    <ArticleTitle> { item.title } </ArticleTitle>
+                                    <ArticleBody>
+                                        { item.body }
+                                    </ArticleBody>
+                                </Article>
+                            </Link>
+                        )
             }) }
 
         </Wrapper>
