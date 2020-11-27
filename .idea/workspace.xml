@@ -1,11 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="df0a0de6-7c0b-490f-b56d-c937c717cbfd" name="Default Changelist" comment="" />
+    <list default="true" id="df0a0de6-7c0b-490f-b56d-c937c717cbfd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/post/CommentCreate.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redux/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redux/contants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redux/reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redux/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/home/addPost/AddPost.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/home/addPost/AddPost.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/home/articles/Articles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/home/articles/Articles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/home/articles/articles.styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/home/articles/articles.styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/newPost/NewPost.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/newPost/NewPost.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/newPost/newPost.styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/newPost/newPost.styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/post/PostItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/post/PostItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/post/post.styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/post/postItem.styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/new.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/new.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/post/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/[id].tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -20,6 +62,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -34,6 +77,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dima\Desktop\test\pages\post" />
       <recent name="C:\Users\Dima\Desktop\test\components\home\header" />
     </key>
   </component>
@@ -57,12 +101,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606136425458</updated>
-      <workItem from="1606136426551" duration="12989000" />
+      <workItem from="1606136426551" duration="13385000" />
+      <workItem from="1605773983792" duration="15519000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="286" y="130" width="1107" height="820" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606395943997">
@@ -77,29 +133,33 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="563" y="264" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.1680.1010@0.0.1680.1010" timestamp="1606396611797" />
-    <state x="439" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606397643195">
+    <state x="439" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606470848116">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="439" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1606397643195" />
-    <state width="1647" height="529" key="GridCell.Tab.0.bottom" timestamp="1606408595273">
+    <state x="439" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1606470848116" />
+    <state width="1647" height="529" key="GridCell.Tab.0.bottom" timestamp="1606483078616">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1647" height="529" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1606408595273" />
-    <state width="1647" height="529" key="GridCell.Tab.0.center" timestamp="1606408595273">
+    <state width="1647" height="529" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1606483078616" />
+    <state width="1647" height="529" key="GridCell.Tab.0.center" timestamp="1606483078616">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1647" height="529" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1606408595273" />
-    <state width="1647" height="529" key="GridCell.Tab.0.left" timestamp="1606408595273">
+    <state width="1647" height="529" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1606483078616" />
+    <state width="1647" height="529" key="GridCell.Tab.0.left" timestamp="1606483078616">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1647" height="529" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1606408595273" />
-    <state width="1647" height="529" key="GridCell.Tab.0.right" timestamp="1606408595273">
+    <state width="1647" height="529" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1606483078616" />
+    <state width="1647" height="529" key="GridCell.Tab.0.right" timestamp="1606483078616">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1647" height="529" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1606408595273" />
+    <state width="1647" height="529" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1606483078616" />
     <state x="98" y="0" key="SettingsEditor" timestamp="1606398655270">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="98" y="0" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1606398655270" />
+    <state x="328" y="224" key="run.anything.popup" timestamp="1606490296721">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="328" y="224" key="run.anything.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1606490296721" />
   </component>
 </project>

@@ -6,7 +6,7 @@ import Link from 'next/link'
 export const AddPost = () => {
     return (
         <Wrap className="wrap">
-           <Link href='/new'>
+           <Link href='/posts/new'>
                <Button>Добавить статью</Button>
            </Link>
         </Wrap>

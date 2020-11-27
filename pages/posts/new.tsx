@@ -1,18 +1,18 @@
 import React from "react";
 import Head from "next/head";
 import {Header} from "../../components/home/header/Header";
-import { PostItem } from "../../components/post/PostItem";
+import { NewPost } from "../../components/newPost/NewPost";
 
-export default function Post() {
+export default function AddNewPost() {
     return (
         <>
             <Head>
-                <title>Пост</title>
+                <title>Новая статья</title>
             </Head>
 
             <Header />
 
-            <PostItem />
+            <NewPost />
         </>
     )
 }

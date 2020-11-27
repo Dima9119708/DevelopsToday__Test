@@ -1,9 +1,21 @@
 import React from "react";
-import {Body, Comments, Comment, Title, Wrap } from "./post.styles";
+import {Body, Comments, Comment, Title, Wrap } from "./postItem.styles";
 import Link from "next/link";
 import {Back} from "../newPost/newPost.styles";
+import { CommentCreate } from "./CommentCreate";
 
-export const PostItem = () => {
+interface Comment {
+    body : string
+}
+
+export interface PostInterface {
+    title : string
+    body : string
+    comments : Array<Comment>
+}
+
+export const PostItem = ( { title, body, comments } : PostInterface ) => {
+
     return (
       <Wrap className="wrap">
 
@@ -12,20 +24,25 @@ export const PostItem = () => {
          </Link>
 
          <Title>
-             saddsasadsadsadasdsadasdsasaddsaadsadsdsaasdd
-             dsadsddasdsdadsadsaasddasasdadssadsdadsadsaasd
+             {title}
          </Title>
 
          <Body>
-             saddsasadsadsadasdsadasdsasaddsaadsadsdsaasdd
-             dsadsddasdsdadsadsaasddasasdadssadsdadsadsaasd
+             { body }
          </Body>
 
-         <Comments>Комментарии : </Comments>
+         <CommentCreate />
 
-         <Comment>sadsdadsadasdasadsdas</Comment>
-         <Comment>sadsdadsadasdasadsdas</Comment>
-         <Comment>sadsdadsadasdasadsdas</Comment>
+         <Comments> Комментарии : </Comments>
+
+         { !comments.length && <Comment>
+                                        К сожалению еще нет
+                                        комментариев по данной статье
+                               </Comment> }
+
+         { comments.map(item => {
+            return <Comment>{ item.body }</Comment>
+         })}
 
       </Wrap>
     )

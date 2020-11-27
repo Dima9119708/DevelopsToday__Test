@@ -11,9 +11,10 @@ export const Title = styled.h2`
 `
 
 export const Body = styled.div`
-    font-size: 24px;
+    font-size: 18px;
     color: #92a3ab;
-    margin-bottom: 25px;
+    line-height: 1.5;
+    margin-bottom: 50px;
 `
 
 export const Comments = styled.div`

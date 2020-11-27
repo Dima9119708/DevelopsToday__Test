@@ -2,55 +2,37 @@ import Link from "next/link";
 import React from "react";
 import {Article, ArticleBody, ArticleTitle, Wrapper } from "./articles.styles";
 
-export const Articles = () => {
+interface Post {
+    title : string
+    body : string
+    id : number | string
+}
+
+interface Props {
+    posts : Array<Post>
+}
+
+export const Articles = ( { posts } : Props ) => {
+
     return (
         <Wrapper className="wrap">
 
-            <Link href="post/5454">
-                <Article>
-                    <ArticleTitle>Sunt aut facere repellat provident occaecati </ArticleTitle>
-                    <ArticleBody>
-                        Quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit
-                        molestiae ut ut quas totam nostrum rerum est autem sunt rem
-                        eveniet architecto
-                    </ArticleBody>
-                </Article>
-            </Link>
+            { posts.map(item => {
+                return (
 
-            <Link href="post/2">
-                <Article>
-                    <ArticleTitle>Sunt aut facere repellat provident occaecati </ArticleTitle>
-                    <ArticleBody>
-                        Quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit
-                        molestiae ut ut quas totam nostrum rerum est autem sunt rem
-                        eveniet architecto
-                    </ArticleBody>
-                </Article>
-            </Link>
-
-            <Link href="post/1">
-                <Article>
-                    <ArticleTitle>Sunt aut facere repellat provident occaecati </ArticleTitle>
-                    <ArticleBody>
-                        Quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit
-                        molestiae ut ut quas totam nostrum rerum est autem sunt rem
-                        eveniet architecto
-                    </ArticleBody>
-                </Article>
-            </Link>
-
-            <Link href="post/3">
-                <Article>
-                    <ArticleTitle>Sunt aut facere repellat provident occaecati </ArticleTitle>
-                    <ArticleBody>
-                        Quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit
-                        molestiae ut ut quas totam nostrum rerum est autem sunt rem
-                        eveniet architecto
-                    </ArticleBody>
-                </Article>
-            </Link>
+                    <Link href={`posts/${item.id}`} key={item.id}>
+                        <Article >
+                            <ArticleTitle> { item.title } </ArticleTitle>
+                            <ArticleBody>
+                                { item.body }
+                            </ArticleBody>
+                        </Article>
+                    </Link>
+                )
+            }) }
 
         </Wrapper>
     )
 }
+
 

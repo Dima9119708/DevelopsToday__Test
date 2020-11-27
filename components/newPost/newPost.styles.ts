@@ -65,3 +65,12 @@ export const ButtonSubmit = styled.button`
       background-color: #29b2f0;
     }
 `
+
+export const PostSuccess = styled.div`
+    padding: 10px 0;
+    background-color: green;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+`
