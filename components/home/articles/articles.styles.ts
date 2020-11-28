@@ -12,6 +12,7 @@ export const ArticleTitle = styled.h2`
     margin-bottom: 15px;
     font-size: 22px;
     line-height: 1.4;
+    word-break: break-word;
 `;
 
 export const Article = styled.article`
