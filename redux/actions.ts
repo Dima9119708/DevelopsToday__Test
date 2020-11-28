@@ -32,22 +32,20 @@ export const POST_DATA = (title : string, body : string, divSuccess : HTMLDivEle
 
 }
 
-export const POST_DATA_COMMENT = (body : string, postId : string | string[]) => {
+export const POST_DATA_COMMENT = (body : string, id : string | string[]) => {
 
     return dispatch => {
 
         axios.post(
             'https://simple-blog-api.crew.red/comments',
             {
-                postId,
+                postId : Number(id),
                 body
             }
         )
             .then(res => {
-                console.log(res)
-                //window.location.reload()
+                window.location.reload()
             })
             .catch(err => console.log(err))
     }
-
 }

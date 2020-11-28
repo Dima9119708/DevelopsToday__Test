@@ -1,8 +1,10 @@
 import styled from 'styled-components'
 
 export const Wrap = styled.div`
-    padding: 50px 0;
+    padding: 50px 10px;
     color: #fff;
+    
+    
 `
 
 export const Back = styled.button`

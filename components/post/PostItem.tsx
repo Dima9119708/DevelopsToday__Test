@@ -17,7 +17,7 @@ export interface PostInterface {
 export const PostItem = ( { title, body, comments } : PostInterface ) => {
 
     return (
-      <Wrap className="wrap">
+      <Wrap className="wrap" key={title}>
 
          <Link href="/">
              <Back>Назад</Back>
@@ -40,8 +40,8 @@ export const PostItem = ( { title, body, comments } : PostInterface ) => {
                                         комментариев по данной статье
                                </Comment> }
 
-         { comments.map(item => {
-            return <Comment>{ item.body }</Comment>
+         { comments.map( (item,index) => {
+            return <Comment key={item.body + index}>{ item.body }</Comment>
          })}
 
       </Wrap>

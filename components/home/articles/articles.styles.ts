@@ -16,10 +16,21 @@ export const ArticleTitle = styled.h2`
 
 export const Article = styled.article`
      padding: 10px;
-     width: 30%;
+     width: 100%;
      cursor: pointer;
-     margin-right: 40px;
      margin-bottom: 20px;
+     text-align: center;
+     
+     @media (min-width: 768px) {
+        text-align: left;
+        width: 50%;
+     }
+     
+     @media (min-width: 1140px) {
+        width: 30%;
+        margin-right: 40px;
+        margin-bottom: 20px;
+     }
      
      &:nth-child(3n) {
         margin-right: 0;
@@ -37,7 +48,16 @@ export const ArticleBody = styled.p`
      -webkit-box-orient: vertical;
      overflow: hidden;
      text-overflow: ellipsis;
-     max-width: 400px;
      color: #92a3ab;
      font-size: 15px;
+     max-width: 400px;
+     margin: 0 auto;
+     
+     @media (min-width: 768px) {
+        margin: 0;
+     }
+     
+     @media (min-width: 1140px) {
+        max-width: 400px;
+     }
 `

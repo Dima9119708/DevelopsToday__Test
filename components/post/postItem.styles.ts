@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Wrap = styled.main`
-    padding: 50px 0;
+    padding: 50px 10px;
 `
 
 export const Title = styled.h2`

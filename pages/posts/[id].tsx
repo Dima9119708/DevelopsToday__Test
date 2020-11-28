@@ -18,7 +18,7 @@ export default function Post( { data } : Props) {
 
             <Header />
 
-            <PostItem {...data} />
+            <PostItem  {...data} />
         </>
     )
 }
