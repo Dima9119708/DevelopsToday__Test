@@ -15,7 +15,7 @@ export const LOAD_POST = (load : boolean) : LOAD_POST_TYPE => {
 }
 
 
-export const POST_DATA = (title : string, body : string, divSuccess : HTMLDivElement) => {
+export const POST_DATA = (title: string, body: string, success : Function) => {
 
     return dispatch => {
 
@@ -24,7 +24,7 @@ export const POST_DATA = (title : string, body : string, divSuccess : HTMLDivEle
                 { title, body }
             )
             .then(e => {
-                divSuccess.style.display = 'block'
+                success(true)
                 dispatch(LOAD_POST(false))
             })
             .catch(err => console.log(err))

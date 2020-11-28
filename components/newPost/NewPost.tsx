@@ -9,7 +9,7 @@ export const NewPost = () => {
 
     const $title = React.useRef<HTMLInputElement>(null)
     const $dist = React.useRef<HTMLTextAreaElement>(null)
-    const $divSuccess = React.useRef<HTMLInputElement>(null)
+    const [ success, setSuccess ] = React.useState(false)
     const postLoad = useSelector(  ( { postLoad } : stateType) => postLoad )
     const dispatch = useDispatch()
 
@@ -37,7 +37,7 @@ export const NewPost = () => {
 
         if (titleValue.length > 10 && distValue.length > 10 && !postLoad) {
             dispatch(LOAD_POST(true))
-            dispatch(POST_DATA(titleValue, distValue, $divSuccess.current!))
+            dispatch(POST_DATA(titleValue, distValue, setSuccess))
         }
     }
 
@@ -47,7 +47,11 @@ export const NewPost = () => {
                 <Back>Назад</Back>
             </Link>
 
-            <PostSuccess ref={$divSuccess} style={{ display : 'none' }}>
+            <PostSuccess
+                style={
+                    { display: success ? 'block' : 'none' }
+                }
+            >
                 Данные успешно отправлены!
             </PostSuccess>
 
