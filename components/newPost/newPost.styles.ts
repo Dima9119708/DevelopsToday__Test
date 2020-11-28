@@ -1,11 +1,9 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Wrap = styled.div`
     padding: 50px 10px;
     color: #fff;
-    
-    
-`
+`;
 
 export const Back = styled.button`
     padding: 10px 30px;
@@ -17,18 +15,18 @@ export const Back = styled.button`
     cursor: pointer;
     outline: none;
     margin-bottom: 30px;
-    
+
     &:hover {
-      background-color: #dc3951;
+        background-color: #dc3951;
     }
-`
+`;
 
 export const Label = styled.label`
     display: block;
     font-size: 25px;
     color: #fff;
     margin-bottom: 10px;
-`
+`;
 
 export const Input = styled.input`
     font-family: 'Poppins', sans-serif;
@@ -38,7 +36,7 @@ export const Input = styled.input`
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 30px;
-`
+`;
 
 export const TextArea = styled.textarea`
     font-family: 'Poppins', sans-serif;
@@ -50,7 +48,7 @@ export const TextArea = styled.textarea`
     border-radius: 5px;
     outline: none;
     margin-bottom: 25px;
-`
+`;
 
 export const ButtonSubmit = styled.button`
     width: 100%;
@@ -62,11 +60,11 @@ export const ButtonSubmit = styled.button`
     border-radius: 5px;
     color: #fff;
     outline: none;
-    
+
     &:hover {
-      background-color: #29b2f0;
+        background-color: #29b2f0;
     }
-`
+`;
 
 export const PostSuccess = styled.div`
     padding: 10px 0;
@@ -75,4 +73,4 @@ export const PostSuccess = styled.div`
     color: #ffffff;
     margin-bottom: 20px;
     border-radius: 5px;
-`
+`;

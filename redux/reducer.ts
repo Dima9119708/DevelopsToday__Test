@@ -1,29 +1,25 @@
-import {LOAD} from "./contants";
+import { LOAD } from './contants';
 
 interface Action {
-    type : string
-    payload : boolean
+    type: string;
+    payload: boolean;
 }
 
 const initialState = {
-    postLoad : false
-}
+    postLoad: false,
+};
 
-export type stateType = typeof initialState
+export type stateType = typeof initialState;
 
-
-export const appReducer = (state = initialState, action : Action) => {
-
+export const appReducer = (state = initialState, action: Action) => {
     switch (action.type) {
-
-        case LOAD :
-
+        case LOAD:
             return {
                 ...state,
-                postLoad : action.payload
-            }
+                postLoad: action.payload,
+            };
 
-        default :
-           return { ...state }
+        default:
+            return { ...state };
     }
-}
+};

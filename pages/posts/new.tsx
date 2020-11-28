@@ -1,7 +1,7 @@
-import React from "react";
-import Head from "next/head";
-import {Header} from "../../components/home/header/Header";
-import { NewPost } from "../../components/newPost/NewPost";
+import React from 'react';
+import Head from 'next/head';
+import { Header } from '../../components/home/header/Header';
+import { NewPost } from '../../components/newPost/NewPost';
 
 export default function AddNewPost() {
     return (
@@ -14,5 +14,5 @@ export default function AddNewPost() {
 
             <NewPost />
         </>
-    )
+    );
 }

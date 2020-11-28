@@ -1,15 +1,14 @@
-import React from 'react'
-import { Provider } from 'react-redux'
-import { store } from '../redux/store'
-import '../styles/base.css'
+import React from 'react';
+import { Provider } from 'react-redux';
+import { store } from '../redux/store';
+import '../styles/base.css';
 
 function MyApp({ Component, pageProps }) {
-
-  return (
-      <Provider store={store}>
-          <Component {...pageProps} />
-      </Provider>
-  )
+    return (
+        <Provider store={store}>
+            <Component {...pageProps} />
+        </Provider>
+    );
 }
 
-export default MyApp
+export default MyApp;

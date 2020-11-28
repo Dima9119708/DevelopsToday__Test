@@ -20,7 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df0a0de6-7c0b-490f-b56d-c937c717cbfd" name="Default Changelist" comment="Фикс">
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +52,6 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -56,6 +62,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Dima\Desktop\DevelopsToday__Test\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="ts.external.directory.path" value="C:\Users\Dima\Desktop\DevelopsToday__Test\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -91,6 +98,7 @@
       <workItem from="1605977579826" duration="149000" />
       <workItem from="1606121338631" duration="1258000" />
       <workItem from="1605863552467" duration="171000" />
+      <workItem from="1606555508838" duration="449000" />
     </task>
     <task id="LOCAL-00001" summary="Фикс">
       <created>1606554581229</created>
@@ -138,26 +146,26 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="439" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1606470848116" />
-    <state width="1647" height="433" key="GridCell.Tab.0.bottom" timestamp="1606554927215">
+    <state width="1647" height="433" key="GridCell.Tab.0.bottom" timestamp="1606555519862">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1647" height="433" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1606554927215" />
-    <state width="1647" height="433" key="GridCell.Tab.0.center" timestamp="1606554927215">
+    <state width="1647" height="433" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1606555519862" />
+    <state width="1647" height="433" key="GridCell.Tab.0.center" timestamp="1606555519861">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1647" height="433" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1606554927215" />
-    <state width="1647" height="433" key="GridCell.Tab.0.left" timestamp="1606554927215">
+    <state width="1647" height="433" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1606555519861" />
+    <state width="1647" height="433" key="GridCell.Tab.0.left" timestamp="1606555519861">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1647" height="433" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1606554927215" />
-    <state width="1647" height="433" key="GridCell.Tab.0.right" timestamp="1606554927215">
+    <state width="1647" height="433" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1606555519861" />
+    <state width="1647" height="433" key="GridCell.Tab.0.right" timestamp="1606555519861">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1647" height="433" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1606554927215" />
-    <state x="98" y="0" key="SettingsEditor" timestamp="1606496132155">
+    <state width="1647" height="433" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1606555519861" />
+    <state x="98" y="0" key="SettingsEditor" timestamp="1606555961913">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="98" y="0" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1606496132155" />
+    <state x="98" y="0" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1606555961913" />
     <state x="232" y="106" key="Vcs.Push.Dialog.v2" timestamp="1606554586156">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
